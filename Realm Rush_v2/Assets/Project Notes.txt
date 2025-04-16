@@ -1,0 +1,4 @@
+Grid/Snap Settings Changes:
+World Grid Size: 1 -> 10
+Increment Snap: 0.25 -> 10
+Added GridManager & Pathfinder to the Script Execution Order
