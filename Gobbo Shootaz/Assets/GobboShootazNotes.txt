@@ -1,0 +1,9 @@
+TODO:
+- Create a bigger & better blockout of the level and add more enemies.
+
+ISSUES:
+- Bumping your head triggers the isGrounded boolean; Results in you sticking to the ceiling and then "resuming" the jump after contact is broken with the ceiling's surface.
+
+NOTABLE CHANGES:
+- (07/09/24) Added else statement in the OnLook method in StarterAssetsInput.cs to prevent camera from moving during game over state.
+- (07/17/24) Added a rigidbody to the ammo crate pickup (with freezed position & rotation) to enable collisions between the characterController(Player) and the ammo crate's collider.
