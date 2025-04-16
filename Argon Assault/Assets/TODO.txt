@@ -1,0 +1,25 @@
+= Stage Information =
+3 Minute Fly-around stage, will fight a boss ('Mothership') with 2 Fighters assisting the mothership. Fighters will respawn when destroyed after some time.
+
+= Win Condition =
+Mothership is destroyed, cutscene plays then credits roll.
+
+= Fail Condition =
+Mothership will try to destroy the place, succeeds if not destroyed by the 3-minute mark, cutscene plays, then credits roll.
+
+= HP Recovery =
+Destroying a fighter triggers HP Recover mechanic OR implement smaller 'fighters' that will also fly around, and when shot, will trigger the
+HP recovery mechanic.
+
+= Invulnerability Period (After Getting Hit) =
+Shield automatically activates for a time OR Flares are automatically fired.
+
+
+== TODO Section ==
+- Modify Enemy Path (Add moments where it can collide with the player)
+- Add Obstacles (Add only a little for the moment, for testing)(Want to test something for this: a collapsing bridge via the timeline animation)
+- Implement collision checks/handles
+
+== POSSIBLE FEATURES ==
+- Make the playership a gunship wherein you play as a crew member manning the orb turret (would need to forfeit player controls for this)
+- could switch "stations" for different weapons
